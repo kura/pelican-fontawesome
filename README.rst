@@ -2,7 +2,9 @@
 Pelican FontAwesome
 ===================
 
-Pelican FontAwesome allows you to embed FontAwesome icons in your RST documents.
+Pelican FontAwesome allows you to embed `FontAwesome
+<https://fortawesome.github.io/Font-Awesome/>`__ icons in your RST posts and
+pages.
 
 Installation
 ============
