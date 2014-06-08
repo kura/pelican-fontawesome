@@ -23,6 +23,12 @@ Then enabled it in your pelicanconf.py
         # ...
     ]
 
+Include the FontAwesome CSS in your base template.
+
+.. code-block:: html
+
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
 Usage
 =====
 
