@@ -32,7 +32,8 @@ Include the FontAwesome CSS in your base template.
 Usage
 =====
 
-In your article or page, you simply need to add a line to embed you video.
+In your article or page, you simply need to add a reference to FontAwesome and
+then the icon name.
 
 .. code-block:: rst
 
@@ -43,6 +44,19 @@ Which will result in:
 .. code-block:: html
 
     <span class="fa fa-github"></span>
+
+And to the user will see: :fa:`fa-github`
+
+You can also increase the size, just like the `FontAwesome documentation
+<https://fortawesome.github.io/Font-Awesome/examples/>`__ shows.
+
+.. code-block:: rst
+
+    :fa:`fa-github fa-4x`
+
+Will result in: :fa:`fa-github fa-4x`
+
+
 
 License
 =======
