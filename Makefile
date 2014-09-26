@@ -6,5 +6,6 @@ uninstall:
 	pip uninstall pelican-fontawesome
 
 pypi:
-	python setup.py sdist upload
-	python setup.py bdist_wheel upload
+	pip install twine wheel
+	python setup.py sdist bdist_wheel
+	twine upload dist/*
